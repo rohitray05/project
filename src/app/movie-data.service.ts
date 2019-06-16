@@ -1,0 +1,98 @@
+import { Injectable } from '@angular/core';
+import { of } from 'rxjs';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class MovieDataService {
+  
+  movies: Array<object> = [
+    { name: 'Jurassic World', year: 2015 },
+    { name: 'Jurassic World1', year: 2015 },
+    { name: 'Jurassic World2', year: 2015 },
+    { name: 'Jurassic World3', year: 2015 },
+    { name: 'Jurassic World4', year: 2015 },
+    { name: 'Jurassic World5', year: 2015 },
+    { name: 'Jurassic World6', year: 2015 },
+    { name: 'Jurassic World7', year: 2015 },
+    { name: 'Jurassic World8', year: 2015 },
+    { name: 'Jurassic World9', year: 2015 },
+    { name: 'Jurassic World10', year: 2015 },
+    { name: 'Jurassic World11', year: 2015 },
+    { name: 'Jurassic World12', year: 2015 },
+    { name: 'Jurassic World13', year: 2015 },
+    { name: 'Jurassic World14', year: 2015 },
+    { name: 'Jurassic World15', year: 2015 },
+    { name: 'Jurassic World16', year: 2015 },
+    { name: 'Jurassic World17', year: 2015 },
+    { name: 'Jurassic World18', year: 2015 },
+    { name: 'Jurassic World19', year: 2015 },
+    { name: 'Jurassic World20', year: 2015 },
+    { name: 'Jurassic World21', year: 2015 },
+    { name: 'Jurassic World22', year: 2015 },
+    { name: 'Jurassic World23', year: 2015 },
+    { name: 'Jurassic World24', year: 2015 },
+    { name: 'Jurassic World25', year: 2015 },
+    { name: 'Jurassic World26', year: 2015 },
+    { name: 'Jurassic World27', year: 2015 },
+    { name: 'Jurassic World28', year: 2015 },
+    { name: 'Jurassic World29', year: 2015 },
+    { name: 'Jurassic World30', year: 2015 },
+    { name: 'Jurassic World31', year: 2015 },
+    { name: 'Jurassic World32', year: 2015 },
+    { name: 'Jurassic World33', year: 2015 },
+    { name: 'Jurassic World34', year: 2015 },
+    { name: 'Jurassic World35', year: 2015 },
+    { name: 'Jurassic World36', year: 2015 },
+    { name: 'Jurassic World37', year: 2015 },
+    { name: 'Jurassic World38', year: 2015 },
+    { name: 'Jurassic World39', year: 2015 },
+    { name: 'Jurassic World40', year: 2015 },
+    { name: 'Jurassic World41', year: 2015 },
+    { name: 'Jurassic World42', year: 2015 },
+    { name: 'Jurassic World43', year: 2015 },
+    { name: 'Jurassic World44', year: 2015 },
+    { name: 'Jurassic World45', year: 2015 },
+    { name: 'Jurassic World46', year: 2015 },
+    { name: 'Jurassic World47', year: 2015 },
+    { name: 'Jurassic World48', year: 2015 },
+    { name: 'Jurassic World49', year: 2015 },
+    { name: 'Jurassic World50', year: 2015 },
+    { name: 'Jurassic World51', year: 2015 },
+    { name: 'Jurassic World52', year: 2015 },
+    { name: 'Jurassic World53', year: 2015 },
+    { name: 'Jurassic World54', year: 2015 },
+    { name: 'Jurassic World55', year: 2015 },
+    { name: 'Jurassic World56', year: 2015 },
+    { name: 'Jurassic World57', year: 2015 },
+    { name: 'Jurassic World58', year: 2015 },
+    { name: 'Jurassic World59', year: 2015 },
+    { name: 'Jurassic World60', year: 2015 },
+    { name: 'Jurassic World61', year: 2015 },
+    { name: 'Jurassic World62', year: 2015 },
+    { name: 'Jurassic World63', year: 2015 },
+    { name: 'Jurassic World64', year: 2015 },
+    { name: 'Jurassic World65', year: 2015 },
+    { name: 'Jurassic World66', year: 2015 },
+    { name: 'Jurassic World67', year: 2015 },
+    { name: 'Jurassic World68', year: 2015 },
+    { name: 'Jurassic World69', year: 2015 },
+    { name: 'Jurassic World70', year: 2015 },
+    { name: 'Jurassic World71', year: 2015 },
+    { name: 'Jurassic World72', year: 2015 },
+    { name: 'Jurassic World73', year: 2015 },
+    { name: 'Jurassic World74', year: 2015 },
+    { name: 'Jurassic World75', year: 2015 },
+    { name: 'Jurassic World76', year: 2015 },
+    { name: 'Jurassic World77', year: 2015 },
+    { name: 'Jurassic World78', year: 2015 },
+    { name: 'Jurassic World79', year: 2015 },
+  ];
+
+  constructor() { }
+
+  get() {
+    return of(this.movies);
+  }
+
+}
